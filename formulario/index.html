@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./styleForm.css">
+
+</head>
+
+<body>
+    <div class="contenedor">
+    <h1 class="tituloForm">Ingresá tus datos de contacto</h1>
+    <form id="formulario" class="formulario">
+        <label for="nombre">Nombre</label>
+        <input class= "input" type="text" id="nombre" name="nombre">
+        <br>
+
+        <label for="apellido">Apellido</label>
+        <input class= "input" text" id="apellido" name="apellido">
+        <br>
+
+        <label for="telefono">Número de contacto</label>
+        <input class= "input" type="text" id="telefono" name="telefono">
+        <br>
+
+        <label for="email">Email</label>
+        <input class= "input" type="text" id="email" name="email">
+        <br>
+
+        <label for="comentario">Dejanos un comentario</label>
+        <input class= "input" type="text" id="comentario" name="comentario">
+        <br>
+
+        <button class="btn" id="enviar">Enviar</button>
+    </form>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" ></script>
+   <script src="./formulario.js"></script>
+</body>
+
+</html>
